@@ -1,0 +1,44 @@
+.desktop--nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  padding: 1rem;
+  background: var(--dark);
+  box-shadow: 2px 2px 6px var(--dark);
+}
+
+.desktop--nav--menu--items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.desktop--nav--text {
+  font-size: 1rem;
+  padding: 0;
+}
+
+.desktop--nav--menu--items a {
+  margin-right: 1rem;
+  border: none;
+}
+
+.desktop--logo--container {
+  position: relative;
+  top: 1.5rem;
+  right: 2rem;
+  background: var(--dark);
+  padding: 0 2rem;
+  border-radius: var(--br);
+  box-shadow: 2px 2px 6px var(--dark);
+}
+
+@media only screen and (min-width: 1024px) {
+  .nav--text a {
+    padding: 0;
+    padding-right: 1rem;
+  }
+}

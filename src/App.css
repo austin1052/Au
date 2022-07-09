@@ -1,0 +1,188 @@
+@import url("https://use.typekit.net/zvy3kff.css");
+
+:root {
+  --black: #050505;
+  --dark: #111111;
+  --mid: #1f1f1f;
+  --light: #3b3b3b;
+  --text: #fff7d9;
+  --accent: #de1e6c;
+  --br: 0.4rem;
+  --bs: 1px 1px 4px var(--dark), -2px -2px 4px var(--dark);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--dark);
+  width: 100%;
+  height: 100%;
+  font-family: forma-djr-micro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--text);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: brother-1816-printed, sans-serif;
+  font-style: normal;
+}
+
+h1,
+h2 {
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-transform: lowercase;
+  margin: 0.3rem 0 1rem;
+  position: relative;
+  display: inline-block;
+}
+
+h2::after {
+  content: "";
+  height: 1rem;
+  width: calc(100% + 0.4rem);
+  background: var(--accent);
+  position: absolute;
+  left: -0.2rem;
+  bottom: 0.3rem;
+  z-index: -10;
+  box-shadow: var(--bs);
+}
+
+h3,
+h4 {
+  color: var(--accent);
+}
+
+h3 {
+  /* font-size: clamp(1.5rem, 3vw, 2rem); */
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  font-weight: 400;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 0.6rem;
+}
+
+img {
+  width: clamp(10rem, 100%, 48rem);
+  text-align: center;
+  display: block;
+}
+
+.page {
+  padding: 0 1rem;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: 4px solid var(--accent);
+  border-radius: 3rem;
+  width: 8rem;
+  height: 3rem;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  border: 4px solid var(--mid);
+  border-radius: 3rem;
+  top: 0px;
+  left: -10px;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  transition: 500ms;
+}
+
+.btn:hover::before {
+  left: 2px;
+  transition: 500ms;
+}
+
+.btn--large {
+  font-size: 1.3rem;
+  padding: 0.8rem 1.4rem;
+  width: 12rem;
+  height: 3.4rem;
+}
+
+.btn--large::before {
+  border: 4px solid var(--dark);
+  top: 3px;
+}
+
+.logo {
+  margin: 1.5rem 0;
+  height: 3rem;
+  width: auto;
+}
+
+.logo:hover {
+  animation: logo 1s infinite;
+}
+
+.logo--small {
+  margin: 0;
+  height: 2.5rem;
+}
+
+.logo--large {
+  /* height: 5rem; */
+  height: 4.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .page {
+    padding: 0 2rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .page {
+    margin-top: 1rem;
+  }
+}
+
+@keyframes logo {
+  0% {
+    transform: rotate(-15deg);
+  }
+  50% {
+    transform: rotate(15deg);
+  }
+  100% {
+    transform: rotate(-15deg);
+  }
+}
+
+

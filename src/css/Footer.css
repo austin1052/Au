@@ -1,0 +1,71 @@
+.main--footer {
+  background: var(--dark);
+  border-top: 1px solid var(--text);
+  box-shadow: -2px -2px 6px var(--dark);
+}
+
+.main--footer > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+
+.main--footer > div > * {
+  margin-bottom: 2rem;
+}
+
+.main--footer .social--media--links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main--footer .social--media--icon {
+  font-size: 1.6rem;
+  color: var(--text);
+  margin: 0 1.5rem;
+}
+
+.main--footer .social--media--icon:hover {
+  color: var(--accent);
+  transition: 400ms;
+}
+
+.footer--nav--text {
+  list-style-type: none;
+}
+
+.footer--nav--text > a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.footer--nav--text > a:hover {
+  color: var(--accent);
+  transition: 400ms;
+}
+
+.black--grid--small {
+  height: 9rem;
+  width: 100%;
+}
+
+
+.black--grid--small h2 {
+  margin: 1rem;
+  font-size: 1.5rem;
+  margin: auto;
+}
+
+.background--image {
+  height: 100%;
+  background-image: url("../square.png");
+  background-position: center;
+  background-size: 1rem 1rem;
+  background-repeat: repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+}
