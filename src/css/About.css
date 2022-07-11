@@ -1,36 +1,47 @@
 .about--section {
   display: flex;
   flex-direction: column;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
+  padding-bottom: 3rem;
   border-bottom: 1px solid var(--mid);
   font-size: 1.1rem;
 }
 
+.about--section:last-of-type {
+  margin-bottom: 3rem;
+}
+
 .about--section .image--container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   /* order: -1; */
 }
 
-.section--info {
+.skills--section--info {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  background: var(--dark);
+}
+
+.about--section--info {
+  display: flex;
+  flex-direction: column;
   padding: 0.8rem 0.5rem;
-  border-radius: var(--br);
-  box-shadow: var(--bs);
 }
 
 .about--me {
   flex-direction: column;
 }
 
+.skills--section--info > .bubble {
+  font-size: 1.1rem;
+}
+
 @media only screen and (min-width: 768px) {
   .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
   }
 
   .about--section > .image--container {

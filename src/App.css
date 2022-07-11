@@ -87,14 +87,22 @@ img {
   display: block;
 }
 
-.page {
-  padding: 0 1rem;
-  max-width: 1400px;
-  margin: auto;
+.bubble {
+  padding: 0.2rem 0.5rem;
+  border: 2px solid var(--accent);
+  border-radius: 2rem;
+  font-size: 1rem;
+  color: var(--accent);
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  transition: background 300ms ease-in, color 300ms ease-in;
 }
 
-.hidden {
-  display: none;
+.bubble:hover {
+  background: var(--accent);
+  color: var(--dark);
+  transition: background 300ms ease-in, color 300ms ease-in;
 }
 
 .btn {
@@ -141,6 +149,10 @@ img {
   top: 3px;
 }
 
+.hidden {
+  display: none;
+}
+
 .logo {
   margin: 1.5rem 0;
   height: 3rem;
@@ -160,9 +172,16 @@ img {
   height: 4.5rem;
 }
 
+.page {
+  padding: 0 1rem;
+  max-width: 1400px;
+  margin: auto;
+}
+
 .page--header {
   display: flex;
   justify-content: center;
+  margin-bottom: 2rem;
 }
 
 @media only screen and (min-width: 768px) {

@@ -7,7 +7,46 @@ const About = () => {
   return (
     <div className="page" id="about--page">
       <main>
-        {AboutData.map(({ title, info, skills, image, grid }) => {
+        <section className="about--section">
+          <div className="page--header">
+            <h2>hey! i'm austin</h2>
+          </div>
+          <div className='grid'>
+            <div className="about--section--info">
+              {
+                AboutData.info.map((text) => {
+                  return <p className="about--me">{text}</p>;
+                })
+              }
+            </div>
+            <div className="image--container">
+              <img src="/austin5.jpg" alt="" />
+            </div>
+          </div>
+        </section>
+        <section className="about--section">
+          <div className="page--header">
+            <h2>skills</h2>
+          </div>
+          <div className="skills--section--info">
+            {
+              AboutData.skills.map((text) => {
+                return <Bubble text={text} />;
+              })
+            }
+          </div>
+        </section>
+      </main>
+    </div>
+  );
+};
+
+export default About;
+
+
+{/* <div className="page" id="about--page">
+      <main>
+        {AboutData.map(({ info, skills }) => {
           return (
             <>
               <section className={grid ? "about--section grid" : "about--section"}>
@@ -37,8 +76,4 @@ const About = () => {
           );
         })}
       </main>
-    </div>
-  );
-};
-
-export default About;
+    </div> */}
