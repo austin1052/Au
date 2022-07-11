@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import { Bubble } from '../components';
 import "../css/ProjectCard.css";
 import * as FaIcons from "react-icons/fa";
@@ -14,7 +15,7 @@ const ProjectCard = ({ project }) => {
         <h3 className="project--title">{project.title}</h3>
         <div className="language--container">
           {project.languages?.map((language, key) => {
-            return <Bubble language={language} key={key} />
+            return <Bubble text={language} key={key} />
           })}
         </div>
         <div className="description--container">
@@ -34,15 +35,15 @@ const ProjectCard = ({ project }) => {
           }
           {
             project.githubLink &&
-            < a href={project.githubLink} className="project--info">
+            <a href={project.githubLink} className="project--info">
               <span>View on Github</span> <FaIcons.FaLongArrowAltRight />
             </a>
           }
           {
-            project.moreInfo &&
-            < a href={project.moreInfoLink} className="project--info">
+            project.moreInfoLink &&
+            <Link to={project.moreInfoLink} className="project--info">
               <span>View More</span> <FaIcons.FaLongArrowAltRight />
-            </a>
+            </Link>
           }
 
         </footer>

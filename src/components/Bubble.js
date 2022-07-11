@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Bubble = ({ language }) => {
+const Bubble = ({ text }) => {
   return (
     <div className="bubble">
-      {language}
+      {text}
     </div>
   );
 };

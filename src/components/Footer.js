@@ -1,7 +1,7 @@
 import React from "react";
 import { SocialMediaIcons } from "../components";
 import { Link } from "react-router-dom";
-import { FooterNavData } from "./FooterNavData";
+import { FooterNavData } from "../data/FooterNavData";
 import "../css/Footer.css";
 
 const Footer = () => {

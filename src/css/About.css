@@ -3,27 +3,38 @@
   flex-direction: column;
   margin-bottom: 3rem;
   border-bottom: 1px solid var(--mid);
+  font-size: 1.1rem;
 }
 
 .about--section .image--container {
-  order: -1;
+  display: flex;
+  justify-content: center;
+  /* order: -1; */
 }
 
 .section--info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   background: var(--dark);
   padding: 0.8rem 0.5rem;
   border-radius: var(--br);
   box-shadow: var(--bs);
 }
 
+.about--me {
+  flex-direction: column;
+}
+
 @media only screen and (min-width: 768px) {
-  .about--section {
+  .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
   .about--section > .image--container {
-    order: 0;
+    /* order: 0; */
     transform: translateY(6rem);
     margin: 0 0.8rem 10rem;
   }

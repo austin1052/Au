@@ -82,7 +82,7 @@ p {
 }
 
 img {
-  width: clamp(10rem, 100%, 48rem);
+  width: clamp(10rem, 100%, 24rem);
   text-align: center;
   display: block;
 }
@@ -173,7 +173,7 @@ img {
 
 @media only screen and (min-width: 1024px) {
   .page {
-    margin-top: 1rem;
+    margin-top: 3rem;
   }
 }
 

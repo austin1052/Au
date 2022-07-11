@@ -14,7 +14,7 @@ export const ProjectData = [
     imageSrc: "/snake.jpg",
     imageAlt: "",
     languages: ['html', 'css', 'jQuery'],
-    description: [`Classic Snake arcade game.`, `Use your arrow keys to move the snake and earn your high score!`],
+    description: [`Classic arcade game.`, `Use the arrow keys to move the snake and earn your high score!`],
     demoLink: "https://austin-snake.netlify.app",
     githubLink: "https://github.com/austin1052/snake"
   },
@@ -53,7 +53,7 @@ export const ProjectData = [
     languages: ['illustrator', 'inkscape'],
     description: [`I have four live Snapchat Geofilters at George Mason University that have over 20,000 uses and over 800,000 views.`],
     demoLink: null,
-    moreInfo: "/snapchat"
+    moreInfoLink: "/geofilters"
   }
 
 

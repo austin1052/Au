@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { SocialMediaIcons } from "../components";
 import "../css/Navbar.css";
-import { NavData } from "./NavData";
+import { NavData } from "../data/NavData";
 import { Link } from "react-router-dom";
 import { Squash as Hamburger } from "hamburger-react";
 
