@@ -1,7 +1,4 @@
-// import React from 'react';
-// import * as FaIcons from "react-icons/fa";
-
-export const SidebarData = [
+export const NavData = [
   {
     title: "Home",
     path: "/",
@@ -16,7 +13,7 @@ export const SidebarData = [
   },
   {
     title: "portfolio",
-    path: "/projects",
+    path: "/portfolio",
     icon: "",
     cName: "nav--text"
   },

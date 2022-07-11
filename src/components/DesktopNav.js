@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { SidebarData } from "./SidebarData";
+import { NavData } from "./NavData";
 import "../css/DesktopNav.css";
 
 const DesktopNav = () => {
@@ -8,7 +8,7 @@ const DesktopNav = () => {
     <>
       <nav className="desktop--nav">
         <ul className="desktop--nav--menu--items">
-          {SidebarData.map((item, index) => {
+          {NavData.map((item, index) => {
             return (
               <li key={index} className={item.cName + " desktop--nav--text"}>
                 <Link to={item.path}>{item.title}</Link>

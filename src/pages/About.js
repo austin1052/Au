@@ -10,7 +10,7 @@ const About = () => {
           return (
             <section className="about--section">
               <div className="info--container">
-                <h2>{title}</h2>
+                <div className="page--header"><h2>{title}</h2></div>
                 <div className="section--info">
                   {info.map((paragraph) => {
                     return <p>{paragraph}</p>;

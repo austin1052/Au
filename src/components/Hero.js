@@ -7,11 +7,12 @@ const Hero = () => {
     <>
       <div className="hero--container">
         <h1 className="hero">
-          {/* <span>ROANOKE'S</span>
-          <span>HOTTEST</span>
-          <span>DANCE CLUB</span> */}
+          <span>Austin Cox</span>
+          {/* <span></span> */}
+          {/* <span>DANCE CLUB</span> */}
         </h1>
-        <Link to="/projects" className="view--projects btn btn--large" >view portfolio
+        <h3>Fullstack Web Developer</h3>
+        <Link to="/portfolio" className="view--projects btn btn--large" >view portfolio
         </Link>
       </div>
     </>

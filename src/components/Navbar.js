@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { SocialMediaIcons } from "../components";
 import "../css/Navbar.css";
-import { SidebarData } from "./SidebarData";
+import { NavData } from "./NavData";
 import { Link } from "react-router-dom";
 import { Squash as Hamburger } from "hamburger-react";
 
@@ -36,7 +36,7 @@ const Navbar = ({ setMenuOpen, menuOpen }) => {
       </div>
       <nav className={sidebar ? "nav--menu active" : "nav--menu"}>
         <ul className="nav--menu--items">
-          {SidebarData.map((item, index) => {
+          {NavData.map((item, index) => {
             return (
               <li
                 key={index}

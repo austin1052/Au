@@ -25,9 +25,13 @@ const ProjectCard = ({ project }) => {
           </div>
         </div>
         <footer>
-          <a href={project.demoLink} className="btn">
-            demo
+          {project.demoLink !== null ?
+            <a href={project.demoLink} className="btn">
+              demo
           </a>
+            : <div></div>
+
+          }
           {
             project.githubLink &&
             < a href={project.githubLink} className="project--info">
@@ -37,7 +41,7 @@ const ProjectCard = ({ project }) => {
           {
             project.moreInfo &&
             < a href={project.moreInfoLink} className="project--info">
-              View More <FaIcons.FaLongArrowAltRight />
+              <span>View More</span> <FaIcons.FaLongArrowAltRight />
             </a>
           }
 

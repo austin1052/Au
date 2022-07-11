@@ -39,7 +39,7 @@ function App() {
             </Route>
           </Switch>
           <Switch>
-            <Route path="/projects" exact>
+            <Route path="/portfolio" exact>
               <Projects />
             </Route>
           </Switch>

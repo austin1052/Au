@@ -4,7 +4,7 @@ export const ProjectData = [
     imageSrc: "/links2.jpg",
     imageAlt: "",
     languages: ['react', 'node.js', 'express', 'postgreSQL'],
-    description: [`Fullstack application for bookmarking your favorite websites.`, `Bookmark your favorite websites, add comments, and keep track of number of visits`, `Demo account:`, `Username: hotdog1`, `Password: password123`],
+    description: [`Fullstack application for bookmarking your favorite websites.`, `Bookmark your favorite websites, add comments, and keep track of number of visits`],
     demoLink: "https://austin-links.herokuapp.com",
     githubLink: "https://github.com/austin1052/links"
   },
@@ -42,7 +42,7 @@ export const ProjectData = [
     imageSrc: "/review-me.jpg",
     imageAlt: "",
     languages: ['react'],
-    description: [`Bad at writing reviews? This app will piece it together for you.`, `Built using OpenAI's API.`],
+    description: [`Bad at writing reviews? This app will piece one together for you.`, `Built using OpenAI's API.`],
     demoLink: "",
     githubLink: "https://github.com/austin1052/Review-Me"
   },
@@ -52,7 +52,7 @@ export const ProjectData = [
     imageAlt: "",
     languages: ['illustrator', 'inkscape'],
     description: [`I have four live Snapchat Geofilters at George Mason University that have over 20,000 uses and over 800,000 views.`],
-    demoLink: "",
+    demoLink: null,
     moreInfo: "/snapchat"
   }
 

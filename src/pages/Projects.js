@@ -6,7 +6,7 @@ import "../css/ProjectCard.css";
 const Projects = () => {
   return (
     <div className="page">
-      <h2>Projects</h2>
+      <div className="page--header"><h2>Portfolio</h2></div>
       <main className="projects">
         {ProjectData.map((project) => {
           return <ProjectCard project={project} key={project.title} />;
