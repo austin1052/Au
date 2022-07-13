@@ -149,6 +149,17 @@ img {
   top: 3px;
 }
 
+.geofilters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+ .geofilters > img {
+  margin: 0 6rem 1rem;
+ }
+
 .hidden {
   display: none;
 }

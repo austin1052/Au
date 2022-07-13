@@ -14,7 +14,7 @@ const Footer = () => {
       </div>
       <footer className="main--footer">
         <div>
-          <img src="/Austin-logo.png" alt="" className="logo logo--small" />
+          <img src="/images/Austin-logo.png" alt="" className="logo logo--small" />
           {FooterNavData.map((item, index) => {
             return (
               <li key={index} className={item.cName}>

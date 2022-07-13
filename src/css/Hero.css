@@ -1,5 +1,6 @@
 .hero--container {
-  height: calc(100vh - 10rem);
+  height: calc(100vh - 5rem);
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -58,6 +59,10 @@
 
   .hero > span {
     margin: 0 0.5rem;
+  }
+
+  .view--projects {
+    margin-top: 25rem;
   }
 }
 

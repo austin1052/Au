@@ -18,7 +18,7 @@ const DesktopNav = () => {
         </ul>
         <div className="desktop--logo--container">
           <Link to="/" aria-label="link to home page">
-            <img src="/Austin-logo.png" alt="Austin logo" className="logo logo--large" />
+            <img src="/images/Austin-logo.png" alt="Austin logo" className="logo logo--large" />
           </Link>
         </div>
       </nav>

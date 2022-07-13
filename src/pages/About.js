@@ -13,27 +13,24 @@ const About = () => {
           </div>
           <div className='grid'>
             <div className="about--section--info">
+              <h3 className="about--heading">about me</h3>
               {
                 AboutData.info.map((text) => {
                   return <p className="about--me">{text}</p>;
                 })
               }
+              <h3 className="about--heading">skills</h3>
+              <div className="skills--container">
+                {
+                  AboutData.skills.map((text) => {
+                    return <Bubble text={text} />;
+                  })
+                }
+              </div>
             </div>
             <div className="image--container">
-              <img src="/austin5.jpg" alt="" />
+              <img src="/images/austin2.png" alt="" />
             </div>
-          </div>
-        </section>
-        <section className="about--section">
-          <div className="page--header">
-            <h2>skills</h2>
-          </div>
-          <div className="skills--section--info">
-            {
-              AboutData.skills.map((text) => {
-                return <Bubble text={text} />;
-              })
-            }
           </div>
         </section>
       </main>
@@ -42,38 +39,3 @@ const About = () => {
 };
 
 export default About;
-
-
-{/* <div className="page" id="about--page">
-      <main>
-        {AboutData.map(({ info, skills }) => {
-          return (
-            <>
-              <section className={grid ? "about--section grid" : "about--section"}>
-                <div className="info--container">
-                  <div className="page--header"><h2>{title}</h2></div>
-                  <div className="section--info">
-                    {
-                      info !== null &&
-                      info.map((text) => {
-                        return <p className="about--me">{text}</p>;
-                      })
-                    }
-                    {skills !== null &&
-                      skills.map((text) => {
-                        return <Bubble text={text} />;
-                      })}
-                  </div>
-                </div>
-                {
-                  image !== null &&
-                  <div className="image--container">
-                    <img src={image} alt="" />
-                  </div>
-                }
-              </section>
-            </>
-          );
-        })}
-      </main>
-    </div> */}

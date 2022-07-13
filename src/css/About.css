@@ -14,7 +14,6 @@
 .about--section .image--container {
   display: flex;
   justify-content: flex-end;
-  /* order: -1; */
 }
 
 .skills--section--info {
@@ -34,8 +33,30 @@
   flex-direction: column;
 }
 
-.skills--section--info > .bubble {
+.skills--container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about--heading {
+  margin-bottom: 1rem;
+}
+
+.about--me:last-of-type {
+  padding-bottom: 3rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--light)
+}
+
+.skills--container > .bubble {
   font-size: 1.1rem;
+  border: 2px solid var(--text);
+  color: var(--text);
+}
+
+.skills--container > .bubble:hover {
+  border: 2px solid var(--accent);
+  transition: border 300ms ease-in, background 300ms ease-in, color 300ms ease-in
 }
 
 @media only screen and (min-width: 768px) {
@@ -45,7 +66,6 @@
   }
 
   .about--section > .image--container {
-    /* order: 0; */
     transform: translateY(6rem);
     margin: 0 0.8rem 10rem;
   }

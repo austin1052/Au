@@ -20,7 +20,7 @@ const Navbar = ({ setMenuOpen, menuOpen }) => {
         <div className="logo--container">
           <Link to="/" aria-label="The Park homepage">
             <img
-              src="/Austin-logo.png"
+              src="/images/Austin-logo.png"
               alt="Austin logo"
               className="logo"
             />

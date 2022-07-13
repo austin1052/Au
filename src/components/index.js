@@ -6,3 +6,4 @@ export { default as SocialMediaIcons } from "./SocialMediaIcons";
 export { default as Footer } from "./Footer";
 export { default as ScrollToTop } from "./ScrollToTop";
 export { default as Bubble } from "./Bubble"
+export { default as Geofilters } from "./Geofilters"

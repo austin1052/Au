@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Navbar, DesktopNav, Hero, Footer, ScrollToTop } from "./components";
+import { Navbar, DesktopNav, Hero, Footer, ScrollToTop, Geofilters } from "./components";
 import { About, Projects } from "./pages";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
@@ -41,6 +41,11 @@ function App() {
           <Switch>
             <Route path="/portfolio" exact>
               <Projects />
+            </Route>
+          </Switch>
+          <Switch>
+            <Route path="/geofilters" exact>
+              <Geofilters />
             </Route>
           </Switch>
         </div>
