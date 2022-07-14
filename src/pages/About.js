@@ -11,29 +11,39 @@ const About = () => {
           <h2>hey! i'm austin</h2>
         </div>
         <div className='grid'>
-          <div className="about--section--info">
+          <div className="about--section--container">
             <h3 className="about--heading">about me</h3>
-            <div className="about--me">
+            <section className="about--section">
               <p>
                 I am a Fullstack Web Developer based in Brooklyn, NY. I am a graduate of Fullstack Academy, and I have a passion for creating amazing user experiences and web applications. I have a strong background in customer satisfaction and team management. I am new to the tech world and eager to be part of team and take on new challenges.
               </p>
               <p>
                 Contact me and let's see what we can build together.
               </p>
-            </div>
-            {/* {
-                AboutData.info.map((text) => {
-                  return <p className="about--me">{text}</p>;
-                })
-              } */}
-            <h3 className="about--heading">skills</h3>
-            <div className="skills--container">
-              {
-                AboutData.skills.map((text) => {
-                  return <Bubble text={text} />;
-                })
-              }
-            </div>
+            </section>
+            <section className="about--section">
+              <h3 className="about--heading">skills</h3>
+              <div className="skills--container">
+                {
+                  AboutData.skills.map((text) => {
+                    return <Bubble text={text} />;
+                  })
+                }
+              </div>
+            </section>
+            <section className="about--section">
+              <h3 className="about--heading">contact</h3>
+              <div className="contact--container">
+                <div>
+                  <h4>Email</h4>
+                  <p>austin1052@gmail.com</p>
+                </div>
+                <div>
+                  <h4>Phone</h4>
+                  <p>276-733-1052</p>
+                </div>
+              </div>
+            </section>
           </div>
           <div className="image--container">
             <img src="/images/austin2.png" alt="" />

@@ -9,6 +9,7 @@
   --accent: #de1e6c;
   --br: 0.4rem;
   --bs: 1px 1px 4px var(--dark), -2px -2px 4px var(--dark);
+  --border: 1px solid var(--mid);
 }
 
 * {
