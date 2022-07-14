@@ -4,7 +4,9 @@
   justify-content: space-between;
   align-items: center;
   height: 4rem;
-  padding: 1rem;
+  max-width: 1400px;
+  margin: auto;
+  padding: 2rem;
   background: var(--dark);
   box-shadow: 2px 2px 6px var(--dark);
 }
@@ -13,7 +15,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 2rem;
 }
 
 .desktop--nav--text {
@@ -29,7 +30,7 @@
 .desktop--logo--container {
   position: relative;
   top: 1.5rem;
-  right: 2rem;
+  /* right: 2rem; */
   background: var(--dark);
   padding: 0 2rem;
   border-radius: var(--br);
