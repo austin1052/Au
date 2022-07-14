@@ -13,7 +13,9 @@
 
 .about--section .image--container {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 1rem;
 }
 
 .skills--section--info {
@@ -26,7 +28,8 @@
 .about--section--info {
   display: flex;
   flex-direction: column;
-  padding: 0.8rem 0.5rem;
+  padding-right: 1rem;
+  margin-bottom: 3rem;
 }
 
 .about--me {
@@ -68,6 +71,7 @@
   .about--section > .image--container {
     transform: translateY(6rem);
     margin: 0 0.8rem 10rem;
+    justify-content: flex-end;
   }
 }
 

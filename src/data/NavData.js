@@ -17,11 +17,11 @@ export const NavData = [
     icon: "",
     cName: "nav--text"
   },
-  {
-    title: "Resume",
-    path: "/resume",
-    icon: "",
-    cName: "nav--text"
-  }
+  // {
+  //   title: "Resume",
+  //   path: "/resume",
+  //   icon: "",
+  //   cName: "nav--text"
+  // }
 
 ]

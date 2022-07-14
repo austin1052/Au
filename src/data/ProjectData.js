@@ -24,7 +24,7 @@ export const ProjectData = [
     imageAlt: "",
     languages: ['react', 'node.js', 'express', 'postgreSQL'],
     description: [`Fullstack e-commerce website built with my teammates at Fullstack Academy.`, `I built the database, API routes, front-end pages, and admin page for the products. My teammates worked on authentication, user reviews, and cart features.`],
-    demoLink: "",
+    demoLink: "https://catnip-corp.herokuapp.com",
     githubLink: "https://github.com/austin1052/GraceShopper"
   },
 
