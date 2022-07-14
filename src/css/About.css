@@ -11,7 +11,7 @@
   margin-bottom: 3rem;
 }
 
-.about--section .image--container {
+.about--section > .image--container {
   display: flex;
   justify-content: center;
   align-items: flex-start;
