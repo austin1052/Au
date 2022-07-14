@@ -6,7 +6,8 @@ export const ProjectData = [
     languages: ['react', 'node.js', 'express', 'postgreSQL'],
     description: [`Fullstack application for bookmarking your favorite websites.`, `Bookmark your favorite websites, add comments, organize by tags, and keep track of number of visits.`, `Demo Account:  username123,  password123`],
     demoLink: "https://austin-links.herokuapp.com",
-    githubLink: "https://github.com/austin1052/links"
+    githubLink: "https://github.com/austin1052/links",
+    buttonText: "demo"
   },
 
   {
@@ -16,7 +17,8 @@ export const ProjectData = [
     languages: ['html', 'css', 'jQuery'],
     description: [`Classic arcade game.`, `Use the arrow keys to move the snake and earn your high score!`],
     demoLink: "https://austin-snake.netlify.app",
-    githubLink: "https://github.com/austin1052/snake"
+    githubLink: "https://github.com/austin1052/snake",
+    buttonText: "demo"
   },
   {
     title: '😻  Catnip Corp.',
@@ -25,7 +27,8 @@ export const ProjectData = [
     languages: ['react', 'node.js', 'express', 'postgreSQL'],
     description: [`Fullstack e-commerce website built with my teammates at Fullstack Academy.`, `I built the database, API routes, front-end pages, and admin page for the products. My teammates worked on authentication, user reviews, and cart features.`],
     demoLink: "https://catnip-corp.herokuapp.com",
-    githubLink: "https://github.com/austin1052/GraceShopper"
+    githubLink: "https://github.com/austin1052/GraceShopper",
+    buttonText: "demo"
   },
 
   {
@@ -35,7 +38,8 @@ export const ProjectData = [
     languages: ['html', 'css', 'jQuery'],
     description: [`Add and subtract, but make it... SPACE 🪐`],
     demoLink: "https://austin-calculator.netlify.app",
-    githubLink: "https://github.com/austin1052/Space-Calculator"
+    githubLink: "https://github.com/austin1052/Space-Calculator",
+    buttonText: "demo"
   },
   {
     title: '💻  Review Me',
@@ -44,7 +48,8 @@ export const ProjectData = [
     languages: ['react'],
     description: [`Bad at writing reviews? This app will piece one together for you.`, `Built using OpenAI's API.`],
     demoLink: "",
-    githubLink: "https://github.com/austin1052/Review-Me"
+    githubLink: "https://github.com/austin1052/Review-Me",
+    buttonText: "coming soon"
   },
   {
     title: '👻  Snapchat Geofilters',

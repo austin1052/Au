@@ -66,6 +66,7 @@
 
 .image--container {
   margin-bottom: 0.5rem;
+  height: 15rem;
   overflow: hidden;
   display: flex;
   align-items: center;

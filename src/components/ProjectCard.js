@@ -5,43 +5,44 @@ import "../css/ProjectCard.css";
 import * as FaIcons from "react-icons/fa";
 
 const ProjectCard = ({ project }) => {
+  const { imageSrc, imageAlt, title, languages, description, demoLink, githubLink, moreInfoLink, buttonText } = project;
   console.log(project)
   return (
     <div className="project--container">
       <section className="project">
         <div className="image--container">
-          <img src={project.imageSrc} alt={project.imageAlt} />
+          <img src={imageSrc} alt={imageAlt} />
         </div>
-        <h3 className="project--title">{project.title}</h3>
+        <h3 className="project--title">{title}</h3>
         <div className="language--container">
-          {project.languages?.map((language, key) => {
+          {languages?.map((language, key) => {
             return <Bubble text={language} key={key} />
           })}
         </div>
         <div className="description--container">
           <div className="project--description">
-            {project.description.map((paragraph) => {
+            {description.map((paragraph) => {
               return <p>{paragraph}</p>;
             })}
           </div>
         </div>
         <footer>
-          {project.demoLink !== null ?
-            <a href={project.demoLink} className="btn">
-              demo
-          </a>
+          {demoLink !== null ?
+            <a href={demoLink} className="btn">
+              {buttonText}
+            </a>
             : <div></div>
 
           }
           {
             project.githubLink &&
-            <a href={project.githubLink} className="project--info">
+            <a href={githubLink} className="project--info">
               <span>View on Github</span> <FaIcons.FaLongArrowAltRight />
             </a>
           }
           {
             project.moreInfoLink &&
-            <Link to={project.moreInfoLink} className="project--info">
+            <Link to={moreInfoLink} className="project--info">
               <span>View More</span> <FaIcons.FaLongArrowAltRight />
             </Link>
           }
