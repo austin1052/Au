@@ -15,8 +15,8 @@ const Hero = () => {
         <h3>Frontend Web Developer</h3>
         <Link to="/portfolio" className="view--projects btn btn--large" >view portfolio
         </Link>
-        <img className="stickman stickman1" src={stickman1} />
-        <img className="stickman stickman2" src={stickman2} />
+        <img className="stickman stickman1" src={stickman1} alt="dancing stick man" />
+        <img className="stickman stickman2" src={stickman2} alt="dancing stick man" />
       </div>
     </>
   );
