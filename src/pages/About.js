@@ -15,7 +15,7 @@ const About = () => {
             <h3 className="about--heading">about me</h3>
             <section className="about--section">
               <p>
-                I am a Fullstack Web Developer based in Brooklyn, NY. I am a graduate of Fullstack Academy, and I have a passion for creating amazing user experiences and web applications. I have a strong background in customer satisfaction and team management. I am new to the tech world and eager to be part of team and take on new challenges.
+                I am a Frontend Web Developer based in Brooklyn, NY. I am a graduate of Fullstack Academy, and I have a passion for creating amazing user experiences and web applications. I have a strong background in customer satisfaction and team management. I am new to the tech world and eager to be part of team and take on new challenges.
               </p>
               <p>
                 Contact me and let's see what we can build together.

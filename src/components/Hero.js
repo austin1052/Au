@@ -10,7 +10,7 @@ const Hero = () => {
           <span>Austin</span>
           <span>Cox</span>
         </h1>
-        <h3>Fullstack Web Developer</h3>
+        <h3>Frontend Web Developer</h3>
         <Link to="/portfolio" className="view--projects btn btn--large" >view portfolio
         </Link>
       </div>
