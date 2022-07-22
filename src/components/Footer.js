@@ -9,7 +9,7 @@ const Footer = () => {
     <>
       <div className="black--grid--small">
         <div className="background--image">
-          <h2>dance ur heart out, bestie 🖤</h2>
+          {/* <h2>dance ur heart out, bestie 🖤</h2> */}
         </div>
       </div>
       <footer className="main--footer">
