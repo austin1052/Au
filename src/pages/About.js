@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className="page">
       <main className="about--page">
-        <div className="page--header">
+        <div className="page--header slide--up">
           <h2>hey! i'm austin</h2>
         </div>
         <div className='grid'>
