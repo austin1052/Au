@@ -6,8 +6,8 @@ import "../css/ProjectCard.css";
 const Projects = () => {
   return (
     <div className="page">
-      <div className="page--header"><h2>my projects</h2></div>
-      <main className="projects">
+      <div className="page--header slide--up"><h2>my projects</h2></div>
+      <main className="projects slide--up delay200">
         {ProjectData.map((project) => {
           return <ProjectCard project={project} key={project.title} />;
         })}

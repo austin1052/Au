@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import { Bubble } from '../components';
-import "../css/ProjectCard.css";
 import * as FaIcons from "react-icons/fa";
+import "../css/ProjectCard.css";
 
 const ProjectCard = ({ project }) => {
   const { imageSrc, imageAlt, title, languages, description, demoLink, githubLink, moreInfoLink, buttonText } = project;

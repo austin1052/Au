@@ -11,7 +11,7 @@ const About = () => {
           <h2>hey! i'm austin</h2>
         </div>
         <div className='grid'>
-          <div className="about--section--container">
+          <div className="about--section--container slide--up delay200">
             <h3 className="about--heading">about me</h3>
             <section className="about--section">
               <p>
@@ -45,7 +45,7 @@ const About = () => {
               </div>
             </section>
           </div>
-          <div className="image--container">
+          <div className="image--container slide--up delay200">
             <img src="/images/austin2.png" alt="" />
           </div>
         </div>

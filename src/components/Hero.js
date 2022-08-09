@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import stickman1 from '../img/stickman1.png'
 import stickman2 from '../img/stickman2.png'

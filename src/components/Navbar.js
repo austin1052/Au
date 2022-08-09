@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { SocialMediaIcons } from "../components";
 import "../css/Navbar.css";
 import { NavData } from "../data/NavData";
