@@ -18,7 +18,7 @@ const Navbar = ({ setMenuOpen, menuOpen }) => {
     <>
       <div className={sidebar ? "navbar active" : "navbar"}>
         <div className="logo--container">
-          <Link to="/" aria-label="The Park homepage">
+          <Link to="/" aria-label="homepage">
             <img
               src="/images/Austin-logo.png"
               alt="Austin logo"
