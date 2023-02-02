@@ -12,7 +12,7 @@ export const NavData = [
     cName: "nav--text"
   },
   {
-    title: "portfolio",
+    title: "Portfolio",
     path: "/portfolio",
     icon: "",
     cName: "nav--text"

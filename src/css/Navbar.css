@@ -58,7 +58,6 @@
 
 .nav--text {
   padding-bottom: 1rem;
-  font-size: 1.5rem;
   letter-spacing: 0.1rem;
   display: flex;
   justify-content: flex-start;
@@ -66,10 +65,12 @@
 }
 
 .nav--text a {
-  font-family: brother-1816-printed, sans-serif;
+  /* font-family: brother-1816-printed, sans-serif; */
   font-style: normal;
+  font-weight: 600;
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  font-size: 1.2rem;
   color: var(--text);
   padding: 0.5rem;
   border-right: 4px solid var(--accent);
@@ -92,6 +93,7 @@
   .nav--text a {
     border-right: none;
     border-left: 4px solid var(--accent);
+    /* font-size: 1.2rem; */
   }
 }
 
