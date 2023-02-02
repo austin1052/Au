@@ -25,13 +25,13 @@ function App() {
         {mobileDisplay ? (
           <Navbar setMenuOpen={setMenuOpen} menuOpen={menuOpen} />
         ) : (
-            <DesktopNav />
-          )}
-        <Route path="/" exact>
-          <Hero />
-        </Route>
+          <DesktopNav />
+        )}
         <div className={menuOpen ? "hidden content" : "content"}>
           <Switch>
+            <Route path="/" exact>
+              <Hero />
+            </Route>
           </Switch>
           <Switch>
             <Route path="/about" exact>
