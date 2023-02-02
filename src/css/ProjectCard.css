@@ -2,10 +2,11 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
+  /* place-items: start center; */
 }
 
 .project--container {
-  width: min(100%, 25rem);
+  /* width: min(100%, 25rem); */
   margin-bottom: 2rem;
   display: flex;
 }
@@ -64,6 +65,8 @@
 .project > .image--container {
   margin-bottom: 0.5rem;
   align-items: center;
+  min-height: 210px; 
+  overflow: hidden;
 }
 
 .description--container {
@@ -110,13 +113,20 @@
 }
 
 @media only screen and (min-width: 768px) {
+
   .projects {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
+
 }
 
 @media only screen and (min-width: 1024px) {
+
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
   .project > .image--container {
-    height: 14rem;
+    max-height: 240px;
   }
 }
