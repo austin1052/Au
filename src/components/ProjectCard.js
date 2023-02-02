@@ -5,10 +5,11 @@ import * as FaIcons from "react-icons/fa";
 import "../css/ProjectCard.css";
 
 const ProjectCard = ({ project }) => {
-  const { imageSrc, imageAlt, title, languages, description, demoLink, githubLink, moreInfoLink, buttonText } = project;
-  console.log(project)
+  const { imageSrc, imageAlt, title, languages, description, demoLink, githubLink, moreInfoLink, buttonText, delay } = project;
+  // const cardStyle = {animationDelay: }
+  console.log(delay);
   return (
-    <div className="project--container">
+    <div className="project--container slide--up" style={{ animationDelay: delay + "ms" }}>
       <section className="project">
         <div className="image--container">
           <img src={imageSrc} alt={imageAlt} />

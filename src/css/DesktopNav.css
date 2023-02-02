@@ -1,14 +1,15 @@
 .desktop--nav {
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   height: 4rem;
-  max-width: 1400px;
+  /* max-width: 1400px; */
   margin: auto;
   padding: 2rem;
   background: var(--dark);
-  box-shadow: 2px 2px 6px var(--dark);
+  border-bottom: 4px solid var(--mid);
 }
 
 .desktop--nav--menu--items {
@@ -30,10 +31,9 @@
 .desktop--logo--container {
   position: relative;
   top: 1.5rem;
-  /* right: 2rem; */
+  left: 2rem;
   background: var(--dark);
   padding: 0 2rem;
-  border-radius: var(--br);
   box-shadow: 2px 2px 6px var(--dark);
 }
 

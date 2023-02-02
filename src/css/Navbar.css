@@ -9,6 +9,7 @@
   background-position: right bottom;
   transition: all 400ms; */
   box-shadow: 2px 2px 6px var(--dark);
+  border-bottom: 4px solid var(--mid);
 }
 
 .navbar.active {

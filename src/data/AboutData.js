@@ -1,6 +1,6 @@
 export const AboutData = {
   skills: [
-    "HTML", "CSS", "Javascript", "jQuery", "React", "Node.js", "Express.js", "PostgreSQL", "RESTful APIs", "Git", "Heroku"
+    "Javascript", "React", "Node.js", "HTML", "CSS", "jQuery", "Express.js", "PostgreSQL", "RESTful APIs", "Google Firebase", "Git", "Heroku"
   ]
 }
 
