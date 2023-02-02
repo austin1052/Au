@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Navbar, DesktopNav, Hero, Footer, ScrollToTop, Geofilters } from "./components";
 import { About, Projects } from "./pages";
-// import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Route, Routes, BrowserRouter as Router } from 'react-router-dom'
 import "./App.css";
 
@@ -21,6 +20,7 @@ function App() {
 
   return (
     <Router>
+      <ScrollToTop />
       {mobileDisplay ? (
         <Navbar setMenuOpen={setMenuOpen} menuOpen={menuOpen} />
       ) : (
@@ -28,7 +28,6 @@ function App() {
       )}
       <div className={menuOpen ? "hidden content" : "content"}>
         <Routes>
-          {/* <ScrollToTop /> */}
           <Route path="/" element={<Hero />} />
           <Route path="/about" element={<About />} />
           <Route path="/portfolio" element={<Projects />} />
