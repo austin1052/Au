@@ -8,7 +8,8 @@ const Hero = () => {
     <>
       <div className="hero--container">
         <h1 className="hero">
-          <span>Austin Cox</span>
+          <span>Austin </span>
+          <span>Cox</span>
         </h1>
         <h3>Frontend Web Developer</h3>
         <Link to="/portfolio" className="view--projects btn btn--large" >view portfolio

@@ -51,6 +51,7 @@ h2 {
   margin-bottom: 2rem;
   position: relative;
   display: inline-block;
+  /* font-family: brother-1816-printed, sans-serif; */
 }
 
 h2::after {
