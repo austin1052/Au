@@ -7,6 +7,12 @@
   border-bottom: var(--border);
   padding-bottom: 2rem;
   font-size: 1.1rem;
+  text-align: justify;
+}
+
+.about--section p {
+  margin-bottom: 1.5rem;
+  white-space: pre-wrap;
 }
 
 .about--section:last-of-type {
@@ -15,7 +21,7 @@
 }
 
 .about--section--container {
-  padding-right: 2rem;
+  padding-right: var(--marginMobile);
   padding-left: var(--marginMobile);
   border-left: 4px solid var(--mid);
 }
