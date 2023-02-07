@@ -42,7 +42,7 @@
   transition: border 300ms ease-in, background 300ms ease-in, color 300ms ease-in
 }
 
-.image--container {
+.about--section > .image--container {
   display: flex;
   justify-content: center;
   align-items: flex-start;
