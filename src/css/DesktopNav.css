@@ -1,11 +1,10 @@
-.desktop--nav {
+/* .desktop--nav {
   position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 4.5rem;
-  /* max-width: 1400px; */
+  height: 4rem;
   margin: auto;
   padding: 2rem;
   background: var(--dark);
@@ -19,11 +18,11 @@
 }
 
 .desktop--nav--text {
-  font-size: 1rem;
   padding: 0;
 }
 
 .desktop--nav--menu--items a {
+  font-size: 1.1rem;
   margin-right: 1rem;
   border: none;
 }
@@ -33,7 +32,8 @@
   top: 1.5rem;
   left: 2rem;
   background: var(--dark);
-  padding: 1.5rem 2rem 0.25rem;
+  padding: 2.8rem 2rem 1.9rem;
+  padding-bottom: 1.9rem;
   box-shadow: 2px 2px 6px var(--dark);
 }
 
@@ -42,4 +42,4 @@
     padding: 0;
     padding-right: 1rem;
   }
-}
+} */

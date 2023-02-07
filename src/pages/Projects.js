@@ -23,7 +23,7 @@ const Projects = () => {
 
   return (
     <div className="page">
-      <div className="page--header slide--up"><h2>My Work</h2></div>
+      {/* <div className="page--header slide--up"><h2>My Work</h2></div> */}
       <main className="projects delay">
         {allProjects &&
           allProjects.map((project) => {

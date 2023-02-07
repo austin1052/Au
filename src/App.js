@@ -21,15 +21,16 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
-      {mobileDisplay ? (
+      {/* {mobileDisplay ? (
         <Navbar setMenuOpen={setMenuOpen} menuOpen={menuOpen} />
       ) : (
         <DesktopNav />
-      )}
+      )} */}
+      <Navbar setMenuOpen={setMenuOpen} menuOpen={menuOpen} mobileDisplay={mobileDisplay} />
       <div className={menuOpen ? "hidden content" : "content"}>
         <Routes>
           <Route path="/" element={<Hero />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/about" element={<About mobileDisplay={mobileDisplay} />} />
           <Route path="/portfolio" element={<Projects />} />
           <Route path="/geofilters" element={<Geofilters />} />
         </Routes>

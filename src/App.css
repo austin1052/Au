@@ -1,12 +1,13 @@
 @import url("https://use.typekit.net/zvy3kff.css");
 
 :root {
-  --black: #050505;
-  --dark: #111111;
-  --mid: #1f1f1f;
-  --light: #3b3b3b;
-  --text: #fff7d9;
-  --accent: #de1e6c;
+  --black: rgb(5, 5, 5);
+  --dark: rgb(17, 17, 17);
+  --mid: rgb(31, 31, 31);
+  --light: rgb(59, 59, 59);
+  /* --text: rgb(255, 247, 217); */
+  --text: rgb(255, 249, 228);
+  --accent: rgb(222, 30, 108);
   /* --accent: #20B2E5; */
   /* --accent: #D32222; */
   --br: 0.4rem;
@@ -25,10 +26,7 @@
 body {
   background-color: var(--dark);
   width: 100%;
-  height: 100%;
-  /* font-family: forma-djr-micro, sans-serif; */
   font-family: brother-1816-printed, sans-serif;
-
   font-weight: 400;
   font-style: normal;
   color: var(--text);
@@ -47,6 +45,8 @@ h2 {
   font-weight: 800;
   position: relative;
   display: inline-block;
+  position: relative;
+  z-index: 10;
 }
 
 h1::after {
@@ -185,13 +185,15 @@ img {
 }
 
 .logo {
-  margin: 1.5rem 0;
   height: 3rem;
   width: auto;
+  transition: 300ms;
 }
 
 .logo:hover {
+  transform: rotate(-15deg);
   animation: logo 1s infinite;
+  animation-delay: 300ms;
 }
 
 .logo--small {
@@ -200,7 +202,7 @@ img {
 }
 
 .logo--large {
-  height: 4.5rem;
+  height: 4rem;
 }
 
 .content {
@@ -209,8 +211,13 @@ img {
 }
 
 .page {
-  padding: 0 var(--marginMobile);;
+  padding: 1rem 0.25rem 0 1rem;
+  padding-bottom: 0;
+  margin: 0 var(--marginMobile);
   width: min(100%, 1400px);
+  /* border-right: 4px solid var(--mid); */
+  border-left: 4px solid var(--mid);
+
 }
 
 .slide--up {
@@ -223,23 +230,27 @@ img {
 }
 
 @media only screen and (min-width: 768px) {
-  h1::after {
+  /* h1::after {
     height: 1.4rem;
-  }
+  } */
 
   h3 {
     font-size: 2rem;
   }
 
+  main {
+    /* margin-top: 4rem; */
+  }
+
   .page {
-    padding: 0 1rem;
+    padding: 2rem 2rem 0;
   }
 }
 
 @media only screen and (min-width: 1024px) {
-  h1::after {
+  /* h1::after {
     height: 2.2rem;
-  }
+  } */
 
   h2 {
     margin-top: 3rem;
@@ -247,7 +258,11 @@ img {
   }
 
   .page {
-    padding: 0 4.25rem;
+    margin: 0 4rem;
+  }
+
+  .content {
+    margin-top: 0;
   }
 }
 

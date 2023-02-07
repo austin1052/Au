@@ -10,6 +10,10 @@
   transition: all 400ms; */
   box-shadow: 2px 2px 6px var(--dark);
   border-bottom: 4px solid var(--mid);
+  /* position: fixed;
+  top: 0; */
+  width: 100%;
+  /* width: min(100%, 1400px); */
 }
 
 .navbar.active {
@@ -31,8 +35,8 @@
   justify-content: space-between;
   position: fixed;
   right: -100%;
-  z-index: 10;
-  transition: all 600ms;
+  z-index: 30;
+  transition: all 500ms;
 }
 
 .nav--menu.active {
@@ -60,9 +64,18 @@
   padding-bottom: 1rem;
   letter-spacing: 0.1rem;
   display: flex;
-  justify-content: flex-start;
+  /* justify-content: flex-start; */
   position: relative;
+  justify-content: flex-end;
+  /* animation: slide-from-right 1200ms cubic-bezier(0.65, 0, 0.35, 1) both; */
+  /* animation-delay: 1000ms; */
+  transform: translateX(100%);
 }
+
+.nav--menu.active .nav--text {
+  transform: translateX(0);
+}
+
 
 .nav--text a {
   /* font-family: brother-1816-printed, sans-serif; */
@@ -78,33 +91,45 @@
   z-index: 1;
 }
 
-@media only screen and (max-width: 768px) {
-  .nav--text {
-    justify-content: flex-end;
-  }
-}
-
+/* 
 @media only screen and (min-width: 768px) {
   .nav--menu {
-    width: 40%;
+    width: 250px;
     display: fixed;
   }
-
-  .nav--text a {
-    border-right: none;
-    border-left: 4px solid var(--accent);
-    /* font-size: 1.2rem; */
-  }
-}
+} */
 
 @media only screen and (min-width: 1024px) {
+.navbar {
+   /* padding: 1rem 4.5rem; */
+}
+
+.navbar > .spacer {
+  display: flex;
+  justify-content: flex-start;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.navbar > .logo--container {
+  display: flex;
+  margin: 0;
+}
+
+.navbar > .menu--bars {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
 .nav--text a::after {
   content: "";
   position: absolute;
-  bottom: 0;
-  left: -0.5rem;
-  width: 100%;
-  height: 100%;
+  bottom: 0.3rem;
+  left: -0.2rem;
+  width: calc(100% + 0.1rem);
+  height: 1.2rem;
   transform: scaleY(0);
   transform-origin: bottom center;
   background: var(--accent);
@@ -112,7 +137,31 @@
   transition: transform 400ms;
 }
 
+.nav--text {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.nav--text a {
+  font-size: 1.5rem;
+  border-right: none;
+  padding: 0;
+  padding-right: 0.2rem;
+}
+
 .nav--text a:hover::after {
   transform: scaleY(0.5);
 }
 }
+
+
+/* @keyframes slide-from-right {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+} */

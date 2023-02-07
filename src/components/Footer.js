@@ -7,14 +7,16 @@ import "../css/Footer.css";
 const Footer = () => {
   return (
     <>
-      <div className="black--grid--small">
+      {/* <div className="black--grid--small">
         <div className="background--image">
-          {/* <h2>dance ur heart out, bestie 🖤</h2> */}
         </div>
-      </div>
+      </div> */}
       <footer className="main--footer">
         <div>
-          <img src="/images/Austin-logo.png" alt="" className="logo logo--small" />
+          {/* <img src="/images/Austin-logo.png" alt="" className="logo logo--small" /> */}
+          <h1 className="hero hero--small">
+            Austin
+          </h1>
           {FooterNavData.map((item, index) => {
             return (
               <li key={index} className={item.cName}>

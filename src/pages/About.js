@@ -3,21 +3,22 @@ import { Bubble } from '../components'
 import { AboutData } from "../data/AboutData";
 import "../css/About.css";
 
-const About = () => {
+const About = ({ mobileDisplay }) => {
   return (
     <div className="page">
       <main className="about--page">
-        <div className="page--header slide--up">
+        {/* <div className="page--header slide--up">
           <h2>hey! i'm austin</h2>
-        </div>
-        <div className='grid'>
-          <div className="about--section--container slide--up delay">
-            <h3 className="about--heading">about me</h3>
-            <section className="about--section">
-              {/* <p>
+        </div> */}
+        {/* <div className='grid'> */}
+        <div className="about--section--container slide--up delay">
+          <h3 className="about--heading">about me</h3>
+          <section className="about--section">
+            {/* <p>
                 I am a Frontend Web Developer based in Brooklyn, NY who has a passion for creating amazing user experiences and web applications that make life easier and more fun.
                 I have a strong background in customer service and team management.
               </p> */}
+            <div className="about--me">
               <p>
                 {`Two things:
 1.   I have always loved arts and crafts.
@@ -47,35 +48,45 @@ const About = () => {
               <p>
                 Contact me. Let's build something!
               </p>
-            </section>
-            <section className="about--section">
-              <h3 className="about--heading">skills</h3>
-              <div className="skills--container">
-                {
-                  AboutData.skills.map((text) => {
-                    return <Bubble text={text} />;
-                  })
-                }
+            </div>
+            {
+              !mobileDisplay &&
+              <div className="image--container">
+                <img src="/images/austin2.png" alt="" />
               </div>
-            </section>
-            <section className="about--section">
-              <h3 className="about--heading">contact</h3>
-              <div className="contact--container">
-                <div>
-                  <h4>Email</h4>
-                  <p>austin1052@gmail.com</p>
-                </div>
-                <div>
-                  <h4>Phone</h4>
-                  <p>276-733-1052</p>
-                </div>
+            }
+          </section>
+          <section className="about--section">
+            <h3 className="about--heading">skills</h3>
+            <div className="skills--container">
+              {
+                AboutData.skills.map((text) => {
+                  return <Bubble text={text} />;
+                })
+              }
+            </div>
+          </section>
+          <section className="about--section">
+            <h3 className="about--heading">contact</h3>
+            <div className="contact--container">
+              <div>
+                <h4>Email</h4>
+                <p>austin1052@gmail.com</p>
               </div>
-            </section>
-          </div>
-          <div className="image--container slide--up delay">
-            <img src="/images/austin2.png" alt="" />
-          </div>
+              <div>
+                <h4>Phone</h4>
+                <p>276-733-1052</p>
+              </div>
+            </div>
+          </section>
+          {
+            mobileDisplay &&
+            <div className="image--container">
+              <img src="/images/austin2.png" alt="" />
+            </div>
+          }
         </div>
+        {/* </div> */}
       </main >
     </div >
   );
