@@ -43,7 +43,7 @@
 .stickman {
   position: absolute;
   bottom: 0;
-  height: 70px;
+  height: 150px;
   width: auto;
   transition: 300ms;
 }
@@ -59,7 +59,7 @@
 }
 
 .stickman2 {
- right: 25px;
+ right: 12px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -77,7 +77,7 @@
 
   .stickman {
     bottom: 0px;
-    height: 150px;
+    height: 350px;
   }
   
   .stickman1 {
