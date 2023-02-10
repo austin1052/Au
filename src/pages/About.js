@@ -52,7 +52,7 @@ const About = ({ mobileDisplay }) => {
             {
               !mobileDisplay &&
               <div className="image--container">
-                <img src="/images/austin2.png" alt="" />
+                <img src="/images/austin3.png" alt="" />
               </div>
             }
           </section>
@@ -82,7 +82,7 @@ const About = ({ mobileDisplay }) => {
           {
             mobileDisplay &&
             <div className="image--container">
-              <img src="/images/austin2.png" alt="" />
+              <img src="/images/austin3.png" alt="" />
             </div>
           }
         </div>
