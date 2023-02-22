@@ -24,7 +24,8 @@
 }
 
 body {
-  background-color: var(--dark);
+  /* background-color: var(--dark); */
+  background: linear-gradient(0deg, var(--black) 0%, var(--mid) 100%);
   width: 100%;
   font-family: brother-1816-printed, sans-serif;
   font-weight: 400;

@@ -10,13 +10,15 @@
 }
 
 .project {
-  background: var(--dark);
+  /* background: var(--dark); */
   display: flex;
   flex-direction: column;
-  box-shadow: var(--bs);
+  /* box-shadow: var(--bs); */
+  padding: 1rem;
+  border-radius: 3px;
 }
 
-.project::after {
+/* .project::after {
   content: "";
   height: 2px;
   width: 8rem;
@@ -25,7 +27,7 @@
   transform: rotate(-5deg);
   position: relative;
   bottom: -2rem;
-}
+} */
 
 .project:hover .description--container {
   border-top: 1px solid var(--accent);
@@ -62,7 +64,8 @@
 .project > .image--container {
   margin-bottom: 0.5rem;
   align-items: center;
-  min-height: 190px; 
+  /* min-height: 190px;  */
+  height: 200px;
   overflow: hidden;
 }
 

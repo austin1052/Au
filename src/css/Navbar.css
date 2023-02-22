@@ -4,11 +4,6 @@
   justify-content: space-between;
   height: 5rem;
   padding: 1rem;
-  background: var(--dark);
-  /* background-size: 200% 100%;
-  background-position: right bottom;
-  transition: all 400ms; */
-  box-shadow: 2px 2px 6px var(--dark);
   border-bottom: 4px solid var(--mid);
   /* position: fixed;
   top: 0; */
@@ -26,7 +21,9 @@
 }
 
 .nav--menu {
-  background: var(--dark);
+  /* background: var(--dark); */
+  /* background: var(--mid); */
+  background: linear-gradient(0deg, var(--black) 0%, var(--mid) 100%);
   width: 100%;
   height: calc(100% + 4rem);
   padding: 1.5rem 1.5rem 4rem;
