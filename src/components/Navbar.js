@@ -26,9 +26,11 @@ const Navbar = ({ setMenuOpen, menuOpen, mobileDisplay }) => {
               className="logo"
             />
           </Link> */}
-          <h1 className="hero">
-            Austin
-          </h1>
+          <Link to="/" aria-label="homepage" className="logo--link">
+            <h1 className="logo">
+              Austin
+            </h1>
+          </Link>
         </div>
         <div className="menu--bars" onClick={toggleContent}>
           <Hamburger

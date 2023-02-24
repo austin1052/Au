@@ -108,6 +108,10 @@ img {
   display: block;
 }
 
+a:visited {
+  color: none;
+}
+
 .bubble {
   padding: 0.2rem 0.5rem;
   border: 2px solid var(--accent);
@@ -183,27 +187,6 @@ img {
 .hidden {
   display: none; 
   position: fixed;
-}
-
-.logo {
-  height: 3rem;
-  width: auto;
-  transition: 300ms;
-}
-
-.logo:hover {
-  transform: rotate(-15deg);
-  animation: logo 1s infinite;
-  animation-delay: 300ms;
-}
-
-.logo--small {
-  margin: 0;
-  height: 2.5rem;
-}
-
-.logo--large {
-  height: 4rem;
 }
 
 .content {

@@ -10,10 +10,8 @@
 }
 
 .project {
-  /* background: var(--dark); */
   display: flex;
   flex-direction: column;
-  /* box-shadow: var(--bs); */
   border-radius: 3px;
 }
 
@@ -46,9 +44,9 @@
   transition-delay: 200ms;
 }
 
-.project--container:nth-of-type(2n-1) .project::after {
+/* .project--container:nth-of-type(2n-1) .project::after {
   transform: rotate(5deg);
-}
+} */
 
 .project--title {
   margin-bottom: 0.5rem;

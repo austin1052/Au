@@ -14,9 +14,11 @@ const Footer = () => {
       <footer className="main--footer">
         <div>
           {/* <img src="/images/Austin-logo.png" alt="" className="logo logo--small" /> */}
-          <h1 className="hero hero--small">
-            Austin
-          </h1>
+          <Link to="/" aria-label="homepage" className="logo--link">
+            <h1 className="logo logo--small">
+              Austin
+            </h1>
+          </Link>
           {FooterNavData.map((item, index) => {
             return (
               <li key={index} className={item.cName}>
