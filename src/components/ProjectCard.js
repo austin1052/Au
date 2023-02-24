@@ -6,7 +6,6 @@ import "../css/ProjectCard.css";
 
 const ProjectCard = ({ project }) => {
   const { imageSrc, imageAlt, title, languages, description, demoLink, githubLink, moreInfoLink, buttonText, delay } = project;
-  // const cardStyle = {animationDelay: }
   console.log(delay);
   return (
     <div className="project--container slide--up" style={{ animationDelay: delay + "ms" }}>

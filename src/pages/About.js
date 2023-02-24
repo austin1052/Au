@@ -30,7 +30,7 @@ const About = ({ mobileDisplay }) => {
               </p>
 
               <p>
-                I am a graduate of Fullstack Academy where I learned the skills to build awesome web applications using Javascript, CSS, React, Node.js, PostgreSQL, and more. I am always looking to learn and become a better developer.
+                I am a graduate of Fullstack Academy where I learned the skills to build awesome web applications using Javascript, CSS, React, Node.js, PostgreSQL, and more. Recently I have been learning about Typescript, Next.js, and Firebase. I am always looking to learn and become a better developer.
               </p>
 
               <p>

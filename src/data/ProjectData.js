@@ -10,7 +10,7 @@ export const ProjectData = [
     buttonText: "demo"
   },
   {
-    title: `Walk that Duck`,
+    title: `🦆 Walk that Duck`,
     imageSrc: "/images/wtd-scores.png",
     imageAlt: "walk that duck app",
     languages: ["react", "firebase", "css"],
