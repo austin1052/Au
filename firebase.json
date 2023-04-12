@@ -27,12 +27,8 @@
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
-    "public": "public",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ]
+    "public": "public/austinaustin",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
   },
   "storage": {
     "rules": "storage.rules"
