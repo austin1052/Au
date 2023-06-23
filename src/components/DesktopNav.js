@@ -17,8 +17,13 @@ const DesktopNav = () => {
           })}
         </ul>
         <div className="desktop--logo--container">
-          <Link to="/" aria-label="link to home page">
+          {/* <Link to="/" aria-label="link to home page">
             <img src="/images/Austin-logo.png" alt="Austin logo" className="logo logo--large" />
+          </Link> */}
+          <Link to="/" aria-label="homepage" className="logo--link">
+            <h1 className="logo">
+              Austin
+            </h1>
           </Link>
         </div>
       </nav>

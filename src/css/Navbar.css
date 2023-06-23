@@ -6,6 +6,7 @@
   padding: 1rem;
   border-bottom: 4px solid var(--mid);
   width: 100%;
+  background-color: var(--dark);
   /* width: min(100%, 1400px); */
 }
 
@@ -24,6 +25,7 @@
   font-size: 3.5rem;
   text-transform: lowercase;
   margin-bottom: 1rem;
+  margin-left: 4rem;
 }
 
 .logo--link:visited {
@@ -147,6 +149,8 @@
 .nav--text {
   padding-top: 1rem;
   padding-bottom: 2rem;
+  transform: translateX(0);
+
 }
 
 .nav--text a {

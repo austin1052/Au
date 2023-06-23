@@ -1,12 +1,12 @@
 export const ProjectData = [
   {
-    title: `🖱  Gotta Click 'Em All`,
-    imageSrc: "/images/links2.png",
-    imageAlt: "austin links app",
-    languages: ['react', 'node.js', 'express', 'postgreSQL'],
-    description: [`Fullstack application for bookmarking your favorite websites.`, `Bookmark your favorite websites, add comments, organize by tags, and keep track of number of visits.`, `Demo Account:  username123,  password123`],
-    demoLink: "https://austin-links.herokuapp.com",
-    githubLink: "https://github.com/austin1052/links",
+    title: "💀 Please Don't Kill Us",
+    imageSrc: "/images/pdku.png",
+    imageAlt: "snake app",
+    languages: ['react', 'next.js', 'stripe', 'firebase'],
+    description: [`Website for Please Don’t Kill Us: An Interactive D&D Adventure`, `Includes informational pages as well as custom built merch store`, `Utilizes Printful for product design and fulfillment, Stripe for payments, and Firestore for product management`],
+    demoLink: null,
+    githubLink: "https://github.com/austin1052/pdku-2",
     buttonText: "demo"
   },
   {
@@ -27,6 +27,17 @@ export const ProjectData = [
     description: [`Classic arcade game.`, `Use the arrow keys to move the snake and earn your high score!`],
     demoLink: "https://austin-snake.netlify.app",
     githubLink: "https://github.com/austin1052/snake",
+    buttonText: "demo"
+  },
+  {
+    title: `🖱  Gotta Click 'Em All`,
+    imageSrc: "/images/links2.png",
+    imageAlt: "austin links app",
+    languages: ['react', 'node.js', 'express', 'postgreSQL'],
+    description: [`Fullstack application for bookmarking your favorite websites.`, `Bookmark your favorite websites, add comments, organize by tags, and keep track of number of visits.`],
+    // demoLink: "https://austin-links.herokuapp.com",
+    demoLink: null,
+    githubLink: "https://github.com/austin1052/links",
     buttonText: "demo"
   },
   // {
@@ -50,16 +61,16 @@ export const ProjectData = [
     githubLink: "https://github.com/austin1052/Space-Calculator",
     buttonText: "demo"
   },
-  {
-    title: '💻  Review Me',
-    imageSrc: "/images/review-me.png",
-    imageAlt: "review me app",
-    languages: ['react'],
-    description: [`Bad at writing reviews? This app will piece one together for you.`, `Built using OpenAI's API.`],
-    demoLink: "",
-    githubLink: "https://github.com/austin1052/Review-Me",
-    buttonText: "coming soon"
-  },
+  // {
+  //   title: '💻  Review Me',
+  //   imageSrc: "/images/review-me.png",
+  //   imageAlt: "review me app",
+  //   languages: ['react'],
+  //   description: [`Bad at writing reviews? This app will piece one together for you.`, `Built using OpenAI's API.`],
+  //   demoLink: "",
+  //   githubLink: "https://github.com/austin1052/Review-Me",
+  //   buttonText: "coming soon"
+  // },
   {
     title: '👻  Snapchat Geofilters',
     imageSrc: "/images/geofilter.png",
