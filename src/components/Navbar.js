@@ -17,7 +17,7 @@ const Navbar = ({ setMenuOpen, menuOpen, mobileDisplay }) => {
   return (
     <>
       <div className={sidebar ? "navbar active" : "navbar"}>
-        {!mobileDisplay && <div className="spacer"></div>}
+        {/* {!mobileDisplay && <div className="spacer"></div>} */}
         <div className="logo--container">
           {/* <Link to="/" aria-label="homepage">
             <img
