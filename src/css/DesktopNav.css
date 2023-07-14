@@ -7,7 +7,7 @@
   height: 4rem;
   margin: auto;
   padding: 2rem;
-  background: var(--dark);
+  /* background: var(--dark); */
   border-bottom: 4px solid var(--mid);
 }
 
@@ -22,7 +22,7 @@
 }
 
 .desktop--nav--menu--items a {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   margin-left: 2rem;
   border: none;
 }

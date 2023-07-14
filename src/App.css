@@ -4,9 +4,13 @@
   --black: rgb(5, 5, 5);
   --dark: rgb(17, 17, 17);
   --mid: rgb(31, 31, 31);
-  --light: rgb(59, 59, 59);
+  /* --light: rgb(59, 59, 59); */
+  --light: rgb(255, 249, 228);
+
   /* --text: rgb(255, 247, 217); */
-  --text: rgb(255, 249, 228);
+  /* --text: rgb(255, 249, 228); */
+  --text: rgb(17, 17, 17);
+  
   --accent: rgb(222, 30, 108);
   /* --accent: #20B2E5; */
   /* --accent: #D32222; */
@@ -24,8 +28,8 @@
 }
 
 body {
-  /* background-color: var(--dark); */
-  background: linear-gradient(0deg, var(--black) 0%, var(--mid) 100%);
+  background-color: var(--light);
+  /* background: linear-gradient(0deg, var(--black) 0%, var(--mid) 100%); */
   width: 100%;
   font-family: brother-1816-printed, sans-serif;
   font-weight: 400;
@@ -59,7 +63,7 @@ h1::after {
   left: -0.2rem;
   bottom: 0.8rem;
   z-index: -10;
-  box-shadow: var(--bs);
+  /* box-shadow: var(--bs); */
 }
 
 h2 {
@@ -78,7 +82,7 @@ h2::after {
   left: -0.2rem;
   bottom: 0.3rem;
   z-index: -10;
-  box-shadow: var(--bs);
+  /* box-shadow: var(--bs); */
 }
 
 h3,
@@ -252,13 +256,16 @@ a:visited {
 
 @keyframes logo {
   0% {
+    transform: rotate(0deg);
+  }
+  20% {
     transform: rotate(-15deg);
   }
-  50% {
+  40% {
+    transform: rotate(0deg);
+  }
+  60% {
     transform: rotate(15deg);
-  }
-  100% {
-    transform: rotate(-15deg);
   }
 }
 

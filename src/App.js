@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Navbar, Hero, Footer, ScrollToTop, Geofilters, DesktopNav } from "./components";
-import { About, Projects } from "./pages";
+import { About, Projects, Resume } from "./pages";
 import { Route, Routes, BrowserRouter as Router } from 'react-router-dom'
 import "./App.css";
 
@@ -33,6 +33,8 @@ function App() {
           <Route path="/" element={<Hero />} />
           <Route path="/about" element={<About mobileDisplay={mobileDisplay} />} />
           <Route path="/portfolio" element={<Projects />} />
+          <Route path="/resume" element={<Resume />} />
+
           <Route path="/geofilters" element={<Geofilters />} />
         </Routes>
       </div>

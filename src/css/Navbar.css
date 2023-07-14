@@ -6,7 +6,9 @@
   padding: 1rem;
   border-bottom: 4px solid var(--mid);
   width: 100%;
-  background-color: var(--dark);
+  /* background-color: var(--dark); */
+  background-color: var(--light);
+
   /* width: min(100%, 1400px); */
 }
 
@@ -42,7 +44,8 @@
 }
 
 .nav--menu {
-  background: linear-gradient(0deg, var(--black) 0%, var(--mid) 100%);
+  /* background: linear-gradient(0deg, var(--black) 0%, var(--mid) 100%); */
+  background-color: var(--light);
   width: 100%;
   height: calc(100% + 4rem);
   padding: 6rem 1.5rem 4rem;
@@ -95,7 +98,7 @@
   font-weight: 600;
   text-decoration: none;
   text-transform: lowercase;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   color: var(--text);
   padding: 0.5rem;
   border-right: 4px solid var(--accent);
