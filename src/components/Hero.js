@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import stickman2 from '../img/stickman2.png'
 import "../css/Hero.css";
 
-const aboutList = ["Fullstack Developer", "Thinker", "Cat Dad", "Plant Lover", "Capricorn", "Problem Solver"]
+const aboutList = ["Fullstack Engineer", "Thinker", "Cat Dad", "Plant Lover", "Capricorn", "Problem Solver"]
 
 const Hero = () => {
 
