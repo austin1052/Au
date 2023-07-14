@@ -16,7 +16,7 @@ export const ProjectData = [
     languages: ["react", "firebase", "css"],
     description: [`You better Walk. That. Duck.`, `An app to update and view scores for my RuPaul's Drag Race fantasy league. Scores are kept in Firebase Realtime Database and all users see the scores updated in realtime!`],
     demoLink: "https://walkthatduck.com",
-    githubLink: "https://github.com/austin1052/ducky-that-walk",
+    githubLink: "https://github.com/austin1052/walk-that-duck",
     buttonText: "demo"
   },
   {
