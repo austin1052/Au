@@ -10,7 +10,7 @@ const Resume = () => {
         width="100%"
         height="100%"
       />
-      <a href={resumePDF} className="btn" style={{ textAlign: "center", margin: "1rem" }} download>Download</a>
+      <a href={resumePDF} className="btn" style={{ textAlign: "center", margin: "1rem" }} download>download</a>
     </div>
   );
 };
