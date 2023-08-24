@@ -1,4 +1,4 @@
-import resumePDF from '../austinCoxResume.pdf'
+import resumePDF from '../resume.pdf'
 
 const Resume = () => {
 

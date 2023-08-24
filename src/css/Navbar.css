@@ -166,8 +166,11 @@
 .nav--text a:hover::after {
   transform: scaleY(0.5);
 }
-}
 
+.nav--text.active a::after {
+  transform: scaleY(0.5);
+}
+}
 
 /* @keyframes slide-from-right {
   0% {

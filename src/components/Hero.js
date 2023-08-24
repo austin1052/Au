@@ -1,8 +1,7 @@
 import { Link } from "react-router-dom";
 import stickman2 from '../img/stickman2.png'
+import { heroData } from '../data/HeroData.js'
 import "../css/Hero.css";
-
-const aboutList = ["Fullstack Engineer", "Thinker", "Cat Dad", "Plant Lover", "Capricorn", "Problem Solver"]
 
 const Hero = () => {
 
@@ -13,7 +12,7 @@ const Hero = () => {
       <div className="hero--container">
         <div>
           {
-            aboutList.map((item, i) => {
+            heroData.map((item, i) => {
               delay = i * 150
               return (
                 <h3 style={{ animationDelay: delay + "ms" }}>{item}</h3>

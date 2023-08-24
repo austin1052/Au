@@ -30,9 +30,9 @@ function App() {
       {/* <Navbar setMenuOpen={setMenuOpen} menuOpen={menuOpen} mobileDisplay={mobileDisplay} /> */}
       <div className={menuOpen ? "hidden content" : "content"}>
         <Routes>
-          <Route path="/" element={<Hero />} />
+          {/* <Route path="/" element={<Hero />} /> */}
           <Route path="/about" element={<About mobileDisplay={mobileDisplay} />} />
-          <Route path="/portfolio" element={<Projects />} />
+          <Route path="/" element={<Projects />} />
           <Route path="/resume" element={<Resume />} />
 
           <Route path="/geofilters" element={<Geofilters />} />

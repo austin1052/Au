@@ -51,6 +51,17 @@
   animation-delay: 600ms;
 }
 
+.about--section > .image--container img {
+  transition: 1s;
+  filter: drop-shadow(1px 1px 40px rgb(17, 17, 17, 0.5));
+}
+
+.about--section > .image--container img:hover {
+  transform: 
+    perspective(1000px)
+    rotateY(-10deg);
+}
+
 @media only screen and (min-width: 768px) {
   .grid {
     display: grid;

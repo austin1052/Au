@@ -12,18 +12,20 @@ const About = ({ mobileDisplay }) => {
         </div> */}
         {/* <div className='grid'> */}
         <div className="about--section--container slide--up delay">
-          <h3 className="about--heading">about me</h3>
+          {/* <h3 className="about--heading">about me</h3> */}
+          <h3 className="about--heading">Two things:</h3>
+          <p className="about--">
+            <div>1.   I have always loved arts and crafts.</div>
+            <div>2. My favorite class in school was chemistry.</div>
+          </p>
+
           <section className="about--section">
-            {/* <p>
-                I am a Frontend Web Developer based in Brooklyn, NY who has a passion for creating amazing user experiences and web applications that make life easier and more fun.
-                I have a strong background in customer service and team management.
-              </p> */}
             <div className="about--me">
-              <p>
-                {`Two things:
-1.   I have always loved arts and crafts.
-2. My favorite class in school was chemistry.`}
-              </p>
+              {/* <p>
+                <div>Two Things:</div>
+                <div>1.   I have always loved arts and crafts.</div>
+                <div>2. My favorite class in school was chemistry.</div>
+              </p> */}
 
               <p>
                 I love building something beautiful, and I love solving problems; web development is a perfect marriage of the two.
