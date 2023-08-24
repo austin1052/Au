@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Navbar, Hero, Footer, ScrollToTop, Geofilters, DesktopNav } from "./components";
+import { Navbar, Footer, ScrollToTop, Geofilters, DesktopNav } from "./components";
 import { About, Projects, Resume } from "./pages";
 import { Route, Routes, BrowserRouter as Router } from 'react-router-dom'
 import "./App.css";
